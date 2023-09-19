@@ -5,17 +5,16 @@ using System;
 namespace CoinCombinations.Tests
 {
   [TestClass]
-  public class Coins
+  public class CoinsTests
   {
   [TestMethod]
-  public void CalcChange_SetsValueOfChange_Int()
+  public void CalcChange_GetValueOfChange_Int()
   {
+    int userInput = 67;
+    Coins coins = new Coins(userInput);
+    int value = coins.Change;
+    Assert.AreEqual(userInput, value);
 
-    Coins coins = new Coins();
-    
-    
-    Assert.AreEqual();
-
-  }
+    }
   }
 }

@@ -8,10 +8,15 @@ namespace CoinCombinations.Models
 
     public int Change { get; set; }
 
-    public CalcChange(int change)
+    public Coins(int change)
     {
       Change = change;
     }
+
+    // public void CalcChange(int change)
+    // {
+    //    Change = change;
+    // }
   }
 }
 
