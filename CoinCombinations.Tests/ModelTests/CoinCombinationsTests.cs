@@ -1,12 +1,21 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using CoinCombinations.Models;
 using System;
 
-namespace ProjectName.Tests
+namespace CoinCombinations.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class Coins
   {
-    // Test methods go here
+  [TestMethod]
+  public void CalcChange_SetsValueOfChange_Int()
+  {
+
+    Coins coins = new Coins();
+    
+    
+    Assert.AreEqual();
+
+  }
   }
 }
